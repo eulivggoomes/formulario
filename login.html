@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+            <label>Nome:</label>
+            <input type="text" id="tname" placeholder="Digite seu nome">
+            <br>
+            <label>Nascimento:</label>
+            <input type="date" id="ddata">
+            <br>
+            <label>E-mail:</label>
+            <input type="mail" id="imail" name="memail" placeholder="Digite seu e-mail">
+            <br>
+            <label>Confirmar e-mail:</label>
+            <input type="email" id="imail" name="memail">
+
+            <br>
+
+            <label for="isexo">Sexo:</label>
+            <select name="ssexo" id="isexo">
+                <option value="M">Mas+culino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agenero</option>
+                
+            </select>
+            <br>
+            <label>Tipo:</label>
+
+            <input type="radio" name="rtipo" id="itpusuario" value="U">
+            <label for="itpusuario">Usuário</label>
+            <input type="radio" name="rtipo" id="itpadimin" value="A">
+            <label for="itpadimin">Admin</label>
+            <br>
+
+            <label for="ivoce">Fale sobre você:</label>
+            <br>
+            <textarea name="textvoce" id="ivoce" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
